@@ -1,7 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~materialize-css/sass/components/color" /* This must be included to use the included variables and the color function */
-$primary-color: color("indigo", "base")
-$secondary-color: color("blue", "lighten-1")
+$primary-color: #972A27
+$secondary-color: color("orange", "base")
 
 $roboto-font-path: "~materialize-css/fonts/roboto/" /* This is needed so the materialize.scss file can load the font */
 @import "~materialize-css/sass/materialize"
+
+.loading-screen
+  background: $primary-color
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  img
+    position: absolute
+    width: 90%
+    max-width: 600px
+    padding-bottom: 150px
+  .progress
+    max-width: 600px
+    width: 90%
+    // padding: 20px
