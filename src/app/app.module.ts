@@ -9,7 +9,9 @@ import { CompareComponent } from './compare/compare.component';
 import { ProductComponent } from './product/product.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { FooterComponent } from './footer/footer.component'
+import { FooterComponent } from './footer/footer.component';
+import { BottomNavigationComponent } from './bottom-navigation/bottom-navigation.component';
+import { BreakingNewsComponent } from './breaking-news/breaking-news.component'
 
 const appRoutes: Routes = [
   { path: 'products', component: ProductComponent },
@@ -24,7 +26,9 @@ const appRoutes: Routes = [
     CompareComponent,
     ProductComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    BottomNavigationComponent,
+    BreakingNewsComponent
   ],
   imports: [
     BrowserModule,

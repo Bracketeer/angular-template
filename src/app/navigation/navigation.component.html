@@ -1,22 +1,24 @@
+<!-- <div class="navbar-fixed"> -->
 <nav>
    <div class="nav-wrapper">
      <a href="/" class="brand-logo"><img src="{{logo}}" /></a>
      <a href="/" data-activates="mobile" class="button-collapse"><i class="material-icons">menu</i></a>
      <ul class="right hide-on-med-and-down">
-       <li><a href="/">Home</a></li>
-       <li><a href="products">Products</a></li>
-       <li><a class="waves-effect waves-light btn" href="compare">Start Comparing</a></li>
-     </ul>
-     <ul class="side-nav" id="mobile">
-       <div class="overlay">
-         <img src="{{logo}}" alt="Assurity">
-       </div>
-       <div class="img-container">
-         <img src="https://assuritystorage.blob.core.windows.net/images/assurity_background_logo_half.png" />
-       </div>
-       <li><a href="#">Home</a></li>
-       <li><a href="products">Products</a></li>
-       <li><a class="waves-effect waves-light btn" href="compare">Start Comparing</a></li>
+       <li><a class="waves-effect" href="/">Home</a></li>
+       <li><a class="waves-effect" href="products">Products</a></li>
+       <li><a class="waves-effect" class="waves-effect waves-light btn" href="compare">Start Comparing</a></li>
      </ul>
    </div>
  </nav>
+<!-- </div> -->
+<ul class="side-nav" id="mobile">
+  <div class="overlay">
+    <img src="{{logo}}" alt="Assurity">
+  </div>
+  <div class="img-container">
+    <img src="https://assuritystorage.blob.core.windows.net/images/assurity_background_logo_half.png" />
+  </div>
+  <li><a class="waves-effect waves-light" href="/"><i class="material-icons">home</i>Home</a></li>
+  <li><a class="waves-effect waves-light" href="products"><i class="material-icons">shopping_basket</i>Products</a></li>
+  <li><a class="waves-effect waves-light" href="compare"><i class="material-icons">compare_arrows</i>Start Comparing</a></li>
+</ul>
